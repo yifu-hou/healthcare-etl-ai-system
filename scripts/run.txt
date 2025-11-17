@@ -1,0 +1,15 @@
+bash
+
+# Navigate to your project
+cd ~/Documents/Personal/Projects/healthcare-etl-ai-system
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Verify it's activated (should see (venv) in prompt)
+echo $VIRTUAL_ENV
+```
+
+You should see:
+```
+(venv) yifuhou@Macbook healthcare-etl-ai-system %
