@@ -80,19 +80,19 @@ Document everything (README, architecture diagram, demo video)
            │  • Load: Salesforce API connector        │
            └──────────┬───────────────────┬───────────┘
                       │                   │
-         ┌────────────▼─────────┐        │
-         │   SALESFORCE CRM     │        │
-         ├──────────────────────┤        │
-         │ • Contacts (Patients)│        │
-         │ • Custom: Medical    │        │
-         │   Records, Care Plans│        │
-         │ • Cases (Episodes)   │        │
-         │ • Dashboards         │        │
-         └────────┬─────────────┘        │
-                  │                      │
-                  │ Sync/Export          │
-                  │                      │
-                  ▼                      ▼
+         ┌────────────▼─────────┐         │
+         │   SALESFORCE CRM     │         │
+         ├──────────────────────┤         │
+         │ • Contacts (Patients)│         │
+         │ • Custom: Medical    │         │
+         │   Records, Care Plans│         │
+         │ • Cases (Episodes)   │         │
+         │ • Dashboards         │         │
+         └────────┬─────────────┘         │
+                  │                       │
+                  │ Sync/Export           │
+                  │                       │
+                  ▼                       ▼
          ┌─────────────────────────────────┐
          │      BigQuery (Warehouse)       │
          ├─────────────────────────────────┤
@@ -235,4 +235,3 @@ User Query → Agent (Vertex AI) → Tool Selection → API Calls
                               Salesforce/BigQuery Data
                                                     ↓
                               Analysis & Response Generation
-```
