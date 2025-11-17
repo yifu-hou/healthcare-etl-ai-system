@@ -63,7 +63,7 @@ Document everything (README, architecture diagram, demo video)
 
 
 ## System Structure
-
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        DATA SOURCES LAYER                       │
 ├─────────────────────────────────────────────────────────────────┤
@@ -125,6 +125,7 @@ Document everything (README, architecture diagram, demo video)
 ```
 
 ## Project Directory Structure
+
 ```
 healthcare-etl-ai-system/
 │
@@ -219,6 +220,7 @@ healthcare-etl-ai-system/
 ### 1. **Data Flow Architecture**
 
 **Batch ETL Flow:**
+
 ```
 Raw Data → Extract → Transform → Validate → Load to Salesforce
                                          ↓
@@ -226,9 +228,11 @@ Raw Data → Extract → Transform → Validate → Load to Salesforce
 ```
 
 **AI Agent Query Flow:**
+
 ```
 User Query → Agent (Vertex AI) → Tool Selection → API Calls 
                                                     ↓
                               Salesforce/BigQuery Data
                                                     ↓
                               Analysis & Response Generation
+```

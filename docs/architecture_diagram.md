@@ -3,7 +3,7 @@
 ## High-Level Architecture
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     DATA SOURCES                             │
+│                     DATA SOURCES                            │
 ├─────────────────────────────────────────────────────────────┤
 │  FHIR JSON Files  │  Lab Results CSV  │  Appointments CSV   │
 │  (Synthea)        │                   │                     │
